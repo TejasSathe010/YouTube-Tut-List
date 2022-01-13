@@ -19,7 +19,9 @@ const ThemeToggle = () => {
             <button onClick={changeTheme} style={{
                 backgroundColor: theme.bg,
                 color: theme.systax,
-            }}>Toggle</button>
+            }}>
+                {isLightTheme ? 'Dark' : 'Light'}
+            </button>
         </>
     )
 }
