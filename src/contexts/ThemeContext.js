@@ -11,9 +11,9 @@ const ThemeContextProvider = ({children}) => {
     })
 
     return (
-        <ThemeContext.Provider value={
-            {...themeState}
-        }>
+        <ThemeContext.Provider value={{
+            themeState, setThemeState
+        }}>
             { children }
         </ThemeContext.Provider>
     );
