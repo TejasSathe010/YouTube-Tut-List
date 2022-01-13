@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+import TutList from "./components/TutList";
+
 function App() {
   return (
     <div className="App">
-      <h1>Basic Code</h1>
+      <Navbar />
+      <TutList />
     </div>
   );
 }
