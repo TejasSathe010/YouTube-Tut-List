@@ -51,4 +51,5 @@ button {
   top: 10px;
   right: 10px;
   border-radius: 10px;
+  outline: 1px solid #e55af1;
 }
